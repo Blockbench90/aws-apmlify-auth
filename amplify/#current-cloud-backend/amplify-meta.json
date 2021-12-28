@@ -1,0 +1,60 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplify619a56cdebb04-staging-82751-authRole",
+      "UnauthRoleArn": "arn:aws:iam::591901580442:role/amplify-amplify619a56cdebb04-staging-82751-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::591901580442:role/amplify-amplify619a56cdebb04-staging-82751-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-amplify619a56cdebb04-staging-82751-deployment",
+      "UnauthRoleName": "amplify-amplify619a56cdebb04-staging-82751-unauthRole",
+      "StackName": "amplify-amplify619a56cdebb04-staging-82751",
+      "StackId": "arn:aws:cloudformation:eu-central-1:591901580442:stack/amplify-amplify619a56cdebb04-staging-82751/0c0e9b50-67b8-11ec-9d9c-0af713e4d252",
+      "AmplifyAppId": "d33dxtfklsufx1"
+    }
+  },
+  "auth": {
+    "awsapmlifyauth75f69bac": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplify619a56cdebb04-staging-82751-deployment/amplify-cfn-templates/auth/awsapmlifyauth75f69bac-cloudformation-template.json",
+        "logicalId": "authawsapmlifyauth75f69bac"
+      },
+      "lastPushTimeStamp": "2021-12-28T09:06:52.747Z",
+      "output": {
+        "UserPoolId": "eu-central-1_ulRLsocuY",
+        "AppClientIDWeb": "3jtprkka6j3nv2om4tesg0dke6",
+        "AppClientID": "4qk902b594prcb7brk1septm57",
+        "HostedUIDomain": "googlesignin-staging",
+        "IdentityPoolId": "eu-central-1:26907c3d-283d-4ed1-a3a5-bba04ec424aa",
+        "UserPoolArn": "arn:aws:cognito-idp:eu-central-1:591901580442:userpool/eu-central-1_ulRLsocuY",
+        "IdentityPoolName": "awsapmlifyauth75f69bac_identitypool_75f69bac__staging",
+        "OAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"https://main.d33dxtfklsufx1.amplifyapp.com/\",\"http://localhost:3000/\"],\"LogoutURLs\":[\"https://main.d33dxtfklsufx1.amplifyapp.com/\",\"http://localhost:3000/\"]}",
+        "UserPoolName": "awsapmlifyauth75f69bac_userpool_75f69bac"
+      },
+      "lastPushDirHash": "RmrUjAbuiUjYr7KjkD0t1ps0VA4="
+    }
+  }
+}
