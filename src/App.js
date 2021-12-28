@@ -4,6 +4,7 @@ import {Hub, Auth} from 'aws-amplify';
 import {Loader} from 'skylight-react';
 import './App.css';
 import 'skylight-react/dist/skylight.css';
+import Landing from "./Landing"
 
 function App() {
     const [user, setUser] = useState(null);
@@ -55,7 +56,7 @@ function App() {
                     </a>
                 </header>
                 :
-                <div>Loading...</div>
+                <Landing/>
             }
         </div>
     );
